@@ -11,6 +11,7 @@ $a->display();
 
 <?php
  $a = new Area('Main');
+ $a->enableGridContainer();
  $a->display($c);
  ?>
 
